@@ -1,0 +1,38 @@
+{
+  "name": "joai-asset",
+  "version": "0.3.0",
+  "description": "Connect Asset to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/asset",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "asset"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Asset by JoAi",
+    "shortDescription": "Connect Asset to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "The Asset app provides tools and operations for seamless transfer of blockchain assets, including cryptocurrencies and tokens, between different accounts and chains.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/asset",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Asset tools available in this app.",
+      "Explain what setup or authentication Asset needs before I run an action.",
+      "Use Asset to help me with the task I describe next."
+    ]
+  }
+}
